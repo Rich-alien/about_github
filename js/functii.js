@@ -38,3 +38,30 @@
 console.log(parseInt(twelve));
 
 console.log(parseFloat(twelve));
+
+ let calceconom = (p, mc)=>((p-mc)/p) ;
+
+
+ console.log(calceconom(130,70));
+ console.log(calceconom(120,80));
+ console.log(calceconom(140,80));
+ console.log(calceconom(130,50));
+ console.log(calceconom(120,70));
+ console.log(calceconom(155,55));
+
+ function ask(question, yes, no) {
+    if (confirm(question)) yes()
+    else no();
+  }
+  
+  ask(
+    "Вы согласны?",
+    function() { alert("Вы согласились."); },
+    function() { alert("Вы отменили выполнение."); }
+  );
+
+  let ask = (question, yes, no) =>{
+      
+  }
+  
+ 
