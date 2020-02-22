@@ -50,8 +50,11 @@ console.log(parseFloat(twelve));
  console.log(calceconom(155,55));
 
  function ask(question, yes, no) {
-    if (confirm(question)) yes()
-    else no();
+    if (confirm(question)) {
+      yes();
+    } else{ 
+      no();
+    }
   }
   
   ask(
@@ -60,8 +63,8 @@ console.log(parseFloat(twelve));
     function() { alert("Вы отменили выполнение."); }
   );
 
-  let ask = (question, yes, no) =>{
+  // let ask = (question, yes, no) =>{
       
-  }
+  // }
   
  
