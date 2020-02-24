@@ -44,7 +44,9 @@ console.log(i);
 // для работы с цифрами нужен call-back func
 
 let arrA = [1,24,4],
-    index =arrA.sort(compareNum); // стортировка
+    index =arrA.sort(compareNum); 
+    arrA[99]=245;// стортировка
+    console.log(arrA);
 
 function compareNum(a,b) {
     return a-b;
