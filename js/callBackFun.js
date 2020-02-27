@@ -1,9 +1,11 @@
 //call back функции
-function first(){
+function first() {
     setTimeout( function(){
         console.log(1);
-    }, 500 );
+    }, 500 ); 
+
 }
+
 
 function second(){
     console.log(2);
